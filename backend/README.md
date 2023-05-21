@@ -4,16 +4,15 @@ Mango bot backend built with NestJS
 ## Configuration
 Create .env
 ```
-DISCORD_TOKEN=<Discord Bot Token>
-DISCORD_GUILD_ID=<Server ID>
+CLIENT_ID=<42 Application Client Id>
+CLIENT_SECRET=<42 Application Secret>
+REDIRECT_URI=<42 Application Redirect URI>
+42_OAUTH_URI=<42 Application OAuth URI>
 ```
 
 ## How to use
 Install and run nest.js backend app
 ```
-# Go into the backend directory
-$ cd backend
-
 # Install dependencies
 $ npm install
 
